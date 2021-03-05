@@ -1,22 +1,12 @@
-# PyTorch Project Template
-A simple and well designed structure is essential for any Deep Learning project, so after a lot practice and contributing in pytorch projects here's a pytorch project template that combines **simplicity, best practice for folder structure** and **good OOP design**. 
-The main idea is that there's much same stuff you do every time when you start your pytorch project, so wrapping all this shared stuff will help you to change just the core idea every time you start a new pytorch project. 
+![](https://github.com/mohammadhashemii/Citizen-Income-Exceeding-Prediction/blob/master/data-description.png)
 
-**So, here’s a simple pytorch template that help you get into your main project faster and just focus on your core (Model Architecture, Training Flow, etc)**
+# Citizen Income Exceeding Prediction using SVM/KNN
+This project was the assignment of the Computational Intelligence course at Shahid Beheshti University. The aim of the project was to take advatage of the SVM(using [scikit-learn](https://scikit-learn.org/stable/)) and KNN(from scratch and without other external libraries) in order to predict the income of the citizens whether they exceed from some constant number or not.
 
-In order to decrease repeated stuff, we recommend to use a high-level library. You can write your own high-level library or you can just use some third-part libraries such as [ignite](https://github.com/pytorch/ignite), [fastai](https://github.com/fastai/fastai), [mmcv](https://github.com/open-mmlab/mmcv) … etc. This can help you write compact but full-featured training loops in a few lines of code. Here we use ignite to train mnist as an example.
 
-# Requirements
-- [yacs](https://github.com/rbgirshick/yacs) (Yet Another Configuration System)
-- [PyTorch](https://pytorch.org/) (An open source deep learning platform) 
-- [ignite](https://github.com/pytorch/ignite) (High-level library to help with training neural networks in PyTorch)
+# Dataset
+The dataset has been obtained from [KEEL](https://sci2s.ugr.es/keel/dataset.php?cod=192#sub1). The Adult data set was extracted in 1994 from census data of the United States. It contains continuous and nominal attributes, describing some social information (age, race, sex, marital status, ...) about the citizens registered.training neural networks in PyTorch)
 
-# Table Of Contents
--  [In a Nutshell](#in-a-nutshell)
--  [In Details](#in-details)
--  [Future Work](#future-work)
--  [Contributing](#contributing)
--  [Acknowledgments](#acknowledgments)
 
 # In a Nutshell   
 In a nutshell here's how to use this template, so **for example** assume you want to implement ResNet-18 to train mnist, so you should do the following:
