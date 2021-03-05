@@ -1,10 +1,11 @@
-![](https://github.com/mohammadhashemii/Citizen-Income-Exceeding-Prediction/blob/master/data-description.png)
-
 # Citizen Income Exceeding Prediction using SVM/KNN
 This project was the assignment of the Computational Intelligence course at Shahid Beheshti University. The aim of the project was to take advatage of the SVM(using [scikit-learn](https://scikit-learn.org/stable/)) and KNN(from scratch and without other external libraries) in order to predict the income of the citizens whether they exceed from some constant number or not.
 
 
 # Dataset
+
+![](https://github.com/mohammadhashemii/Citizen-Income-Exceeding-Prediction/blob/master/data-description.png)
+
 The dataset has been obtained from [KEEL](https://sci2s.ugr.es/keel/dataset.php?cod=192#sub1). The Adult data set was extracted in 1994 from census data of the United States. It contains continuous and nominal attributes, describing some social information (age, race, sex, marital status, ...) about the citizens registered.training neural networks in PyTorch)
 
 
