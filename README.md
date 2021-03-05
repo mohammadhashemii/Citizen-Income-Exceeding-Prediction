@@ -18,7 +18,7 @@ At last, standardization and normalization was used for better convergence of th
 
 # Model
 
-SVM with differenet kernels like **RBF** and **Polynomial** has been tried and the results are plotted in the notebook. Other explanation of the this procedure is documented in the `citizenIncomeExceedingPrediction.ipynb`.
+**SVM** with differenet kernels like **RBF** and **Polynomial** has been tried and the results are plotted in the notebook. Also there is an efficient implementation of **KNN** in the notebook. Other explanation of the this procedure is documented in the `citizenIncomeExceedingPrediction.ipynb`.
 
 
 
